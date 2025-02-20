@@ -10,6 +10,6 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 })
 export class AboutComponent {
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | About')
+    this.titleService.setTitle('Cesar Tapia | About')
   }
 }

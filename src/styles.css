@@ -20,14 +20,14 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.a-green {
+.a-blue {
     color: #adb5bd;
     position: relative;
     text-decoration: none;
     
 }
 
-.a-green::after {
+.a-blue::after {
     content: '';
     position: absolute;
     width: 0;
@@ -35,20 +35,20 @@ body {
     display: block;
     margin-top: 5px;
     right: 0;
-    background: #6200ff; 
+    background: #ae00ff; 
     transition: width 0.3s ease, background-color 0.3s ease;
     
 }
 
-.a-green:hover::after {
+.a-blue:hover::after {
     width: 100%;
     left: 0;
     background: #0059ff;
 
 }
 
-.a-green:hover,
-.a-green:active {
+.a-blue:hover,
+.a-blue:active {
     color: #f8f9fa;
 }
 

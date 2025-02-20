@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit{
   delayBetweenPhrases: number = 2000;
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Home')
+    this.titleService.setTitle('Cesar Tapia  | Inicio')
   }
 
 
