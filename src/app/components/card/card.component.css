@@ -18,7 +18,22 @@
     font-size: 1.75rem;;
     line-height: 2rem;
     font-weight: bold;
+    background: linear-gradient(
+        to right, #3DEBBF, #3DA5EB,#3DDCEB,#3DEB84,#3D6EEB,#7294E0
+        );
+        width: fit-content;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% auto;
+        animation: 3s gradient linear infinite;
+       }
+       
+       @keyframes gradient{
+         0%{background-position: 0% 75%;}
+         50%{background-position: 100% 50%;}
+         100%{background-position: 0% 75%;}
 }
+
 
 .card-text{
     margin: 25px 0px;

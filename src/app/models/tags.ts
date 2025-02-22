@@ -1,19 +1,19 @@
 
 export class Tag {
-    static readonly ANGULAR = new Tag('Angular', '#5a7581');
-    static readonly SPRINGBOOT = new Tag('Spring Boot', '#5a7581');
-    static readonly SPRINGSECURITY = new Tag('Spring Security', '#5a7581');
-    static readonly SPRINGJWT = new Tag('Spring JWT', '#5a7581');
-    static readonly SPRINGWEB = new Tag('Spring Web', '#5a7581');
-    static readonly JPA = new Tag('JPA', '#5a7581');
-    static readonly POSTGRESQL = new Tag('PostgreSQL', '#355158')
-    static readonly RESTAPI = new Tag('Rest API', '#355158');
-    static readonly POSTMAN = new Tag('Postman', '#355158');
-    static readonly TYPESCRIPT = new Tag('Typescript', '#192129');
-    static readonly HTML5 = new Tag('HTML5', '#192129');
-    static readonly CSS3 = new Tag('CSS3', '#192129');
-    static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
-    static readonly JAVA = new Tag('Java', '#5a7581');
+    static readonly ANGULAR = new Tag('Angular', '#802200');
+    static readonly SPRINGBOOT = new Tag('Spring Boot', '#769D37');
+    static readonly SPRINGSECURITY = new Tag('Spring Security', '#379D4A');
+    static readonly SPRINGJWT = new Tag('Spring JWT', '#379D4A');
+    static readonly SPRINGWEB = new Tag('Spring Web', '#2D8058');
+    static readonly JPA = new Tag('JPA', '#689F15');
+    static readonly POSTGRESQL = new Tag('PostgreSQL', '#207F7F')
+    static readonly RESTAPI = new Tag('Rest API', '#507F3F');
+    static readonly POSTMAN = new Tag('Postman', '#7F5400');
+    static readonly TYPESCRIPT = new Tag('Typescript', '#006580');
+    static readonly HTML = new Tag('HTML', '#C26F00');
+    static readonly CSS = new Tag('CSS', '#0071C2');
+    static readonly FASTAPI = new Tag('FastAPI', '#009E10');
+    static readonly JAVA = new Tag('Java', '#665C0D');
 
     private constructor(private readonly key: string, public readonly color: string) {
     }

@@ -15,4 +15,9 @@ export class ModalComponent {
   constructor(public bsModalRef: BsModalRef) {
 
   }
+
+  esid1verificar(){
+    return this.card.id=1;
+
+  }
 }

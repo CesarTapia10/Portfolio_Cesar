@@ -15,7 +15,7 @@
         <h1 class="mt-2 modal-description">Descripción</h1>
         <p class="p-modal">{{card.description}}</p>
         <p class="p-modal"><strong><span class="default-highlight">Github</span></strong>: <a href={{card.projectLink}} target="_blank" class="github" class="a-blue">{{ card.projectLink }}</a></p>
-    
+        <p class="p-modal"><strong><span class="default-highlight">Pagina</span></strong>: <a href="https://ego-task.web.app/" target="_blank" class="pagina" class="a-blue">https://ego-task.web.app/</a></p>
         <hr>
         <div class="d-flex flex-wrap">
             @for (tag of card.tags; track card.id) {
