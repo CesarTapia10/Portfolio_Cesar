@@ -13,11 +13,10 @@ import { RouterLink } from '@angular/router';
 export class HomeComponent implements OnInit{
   dynamicText: string = "";
   phrases: string[] =[
-    "sistemas de información.",
-    "gestión de bases de datos.",
-    "desarrollo de software",
-    "desarrollo web",
+    "Sistemas de información.",
     "Gestión de Servicios de TI",
+    "Gestión de bases de datos.",
+    "Desarrollo web",
     "Cloud Computing",
     "Redes y comunicaciones de datos",
    
